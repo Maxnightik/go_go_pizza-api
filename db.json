@@ -20,24 +20,24 @@
       "anchovies",
       "oregano"
     ],
-    "ru": [
-      "помидоры",
-      "моцарелла",
-      "базилик",
-      "пепперони",
-      "морепродукты",
+    "uk": [
+      "помідори",
+      "моцарела",
+      "базилік",
+      "пепероні",
+      "морепродукти",
       "оливки",
-      "гауда",
-      "дор блю",
+      "Гауда",
+      "дор Блю",
       "пармезан",
-      "ветчина",
-      "шампиньоны",
-      "лук",
-      "болгарский перец",
-      "курица терияки",
+      "шинка",
+      "шампіньйони",
+      "цибуля",
+      "болгарський перець",
+      "курка теріяки",
       "ананас",
-      "каперсы",
-      "анчоусы",
+      "каперси",
+      "анчоуси",
       "орегано"
     ]
   },
@@ -46,170 +46,170 @@
       "id": 1,
       "name": {
         "en": "margherita",
-        "ru": "маргарита"
+        "uk": "Маргарита"
       },
       "img": ["img/margherita.png", "img/margherita.webp"],
       "price": {
-        "25cm": 400,
-        "30cm": 500,
-        "35cm": 600
+        "25cm": 100,
+        "30cm": 150,
+        "35cm": 200
       },
       "toppings": {
         "en": "tomatoes, mozzarella, basil",
-        "ru": "помидоры, моцарелла, базилик"
+        "uk": "помідори, моцарела, базилік"
       }
     },
     {
       "id": 2,
       "name": {
         "en": "pepperoni",
-        "ru": "пепперони"
+        "uk": "Пепероні"
       },
       "img": ["img/pepperoni.png", "img/pepperoni.webp"],
       "price": {
-        "25cm": 450,
-        "30cm": 550,
-        "35cm": 650
+        "25cm": 150,
+        "30cm": 200,
+        "35cm": 250
       },
       "toppings": {
         "en": "pepperoni, mozzarella",
-        "ru": "пепперони, моцарелла"
+        "uk": "пепероні, моцарела"
       }
     },
     {
       "id": 3,
       "name": {
         "en": "seafood",
-        "ru": "морская"
+        "uk": "Морська"
       },
       "img": ["img/seafood.png", "img/seafood.webp"],
       "price": {
-        "25cm": 500,
-        "30cm": 600,
-        "35cm": 700
+        "25cm": 100,
+        "30cm": 200,
+        "35cm": 300
       },
       "toppings": {
         "en": "seafood, mozzarella, olives",
-        "ru": "морепродукты, моцарелла, оливки"
+        "uk": "морепродукти, моцарела, оливки"
       }
     },
     {
       "id": 4,
       "name": {
         "en": "fourcheese",
-        "ru": "четыре сыра"
+        "uk": "Чотири сири"
       },
       "img": ["img/fourcheese.png", "img/fourcheese.webp"],
       "price": {
-        "25cm": 480,
-        "30cm": 580,
-        "35cm": 680
+        "25cm": 180,
+        "30cm": 230,
+        "35cm": 280
       },
       "toppings": {
         "en": "gouda, blue_cheese, parmesan, mozzarella",
-        "ru": "гауда, дор блю, пармезан, моцарелла"
+        "uk": "гауда, дор блю, пармезан, моцарелла"
       }
     },
     {
       "id": 5,
       "name": {
         "en": "capricciosa",
-        "ru": "капричиоза"
+        "uk": "Капричіоза"
       },
       "img": ["img/capricciosa.png", "img/capricciosa.webp"],
       "price": {
-        "25cm": 470,
-        "30cm": 570,
-        "35cm": 670
+        "25cm": 170,
+        "30cm": 230,
+        "35cm": 270
       },
       "toppings": {
         "en": "ham, mushrooms, mozzarella, olives",
-        "ru": "ветчина, шампиньоны, моцарелла, оливки"
+        "uk": "шинка, печериці, моцарелла, оливки"
       }
     },
     {
       "id": 6,
       "name": {
         "en": "mushroom",
-        "ru": "с грибами"
+        "uk": "з грибами"
       },
       "img": ["img/mushroom.png", "img/mushroom.webp"],
       "price": {
-        "25cm": 460,
-        "30cm": 560,
-        "35cm": 660
+        "25cm": 160,
+        "30cm": 200,
+        "35cm": 260
       },
       "toppings": {
         "en": "mushrooms, mozzarella, onion, bell_pepper",
-        "ru": "шампиньоны, моцарелла, лук, болгарский перец"
+        "uk": "печериці, моцарелла, цибуля, болгарський перець"
       }
     },
     {
       "id": 7,
       "name": {
         "en": "ham",
-        "ru": "с ветчиной"
+        "uk": "з шинкою"
       },
       "img": ["img/ham.png", "img/ham.webp"],
       "price": {
-        "25cm": 470,
-        "30cm": 570,
-        "35cm": 670
+        "25cm": 170,
+        "30cm": 230,
+        "35cm": 270
       },
       "toppings": {
         "en": "ham, mozzarella, olives, bell_pepper",
-        "ru": "ветчина, моцарелла, оливки, болгарский перец"
+        "uk": "шинка, моцарелла, оливки, болгарський перець"
       }
     },
     {
       "id": 8,
       "name": {
         "en": "teriyaki chicken",
-        "ru": "с курицей терияки"
+        "uk": "з куркою теріяки"
       },
       "img": ["img/teriyaki.png", "img/teriyaki.webp"],
       "price": {
-        "25cm": 480,
-        "30cm": 580,
-        "35cm": 680
+        "25cm": 180,
+        "30cm": 230,
+        "35cm": 280
       },
       "toppings": {
         "en": "teriyaki_chicken, mozzarella, onion, bell_pepper",
-        "ru": "курица терияки, моцарелла, лук, болгарский перец"
+        "uk": "курка теріяки, моцарела, цибуля, болгарський перець"
       }
     },
     {
       "id": 9,
       "name": {
         "en": "hawaiian",
-        "ru": "Гавайская"
+        "uk": "Гавайська"
       },
       "img": ["img/hawaiian.png", "img/hawaiian.webp"],
       "price": {
-        "25cm": 470,
-        "30cm": 570,
-        "35cm": 670
+        "25cm": 170,
+        "30cm": 220,
+        "35cm": 270
       },
       "toppings": {
         "en": "ham, pineapple, mozzarella, olives",
-        "ru": "ветчина, ананас, моцарелла, оливки"
+        "uk": "шинка, ананас, моцарелла, оливки"
       }
     },
     {
       "id": 10,
       "name": {
         "en": "neapolitan",
-        "ru": "Неаполитана"
+        "uk": "Неаполітана"
       },
       "img": ["img/neapolitan.png", "img/neapolitan.webp"],
       "price": {
-        "25cm": 490,
-        "30cm": 590,
-        "35cm": 690
+        "25cm": 190,
+        "30cm": 230,
+        "35cm": 290
       },
       "toppings": {
         "en": "capers, anchovies, mozzarella, oregano",
-        "ru": "каперсы, анчоусы, моцарелла, орегано"
+        "uk": "каперси, анчоуси, моцарела, орегано"
       }
     }
   ]
