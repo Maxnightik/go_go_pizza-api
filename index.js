@@ -29,13 +29,15 @@ app.get('/api/products', async (req, res) => {
       )
     ) :
     data.pizzas;
-const productsWithImages = filteredProducts.map(product => {
+
+  const productsWithImages = filteredProducts.map(product => {
     const images = product.img.map(img => `https://${req.get('host')}/${img}`);
     const { img, ...productWithoutImg } = product;
     return { ...productWithoutImg, images };
-});
+  });
 
-res.json(productsWithImages);
+  res.json(productsWithImages);
+});
 
 app.get('/api/products/:id', async (req, res) => {
   const data = await loadData();
@@ -58,9 +60,6 @@ app.get('/api/products/:id', async (req, res) => {
 
   res.json(productWithImages);
 });
-
-
-
 
 app.get('/api/toppings', async (req, res) => {
   const data = await loadData();
@@ -108,4 +107,3 @@ app.post('/api/orders', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-}
