@@ -29,16 +29,13 @@ app.get('/api/products', async (req, res) => {
       )
     ) :
     data.pizzas;
-
-  const productsWithImages = filteredProducts.map(product => {
-    const images = product.img.map(img => `https://${req.protocol}://${req.get('host')}/${img}`);
+const productsWithImages = filteredProducts.map(product => {
+    const images = product.img.map(img => `https://${req.get('host')}/${img}`);
     const { img, ...productWithoutImg } = product;
     return { ...productWithoutImg, images };
-  });
-
-  res.json(productsWithImages);
 });
 
+res.json(productsWithImages);
 
 app.get('/api/products/:id', async (req, res) => {
   const data = await loadData();
@@ -53,7 +50,7 @@ app.get('/api/products/:id', async (req, res) => {
   }
 
   // Преобразуем относительные пути изображений в полные адреса
-  const images = product.img.map(img => `https://${req.protocol}://${req.get('host')}/${img}`);
+  const images = product.img.map(img => `https://${req.get('host')}/${img}`);
   // Удаляем поле img из объекта пиццы
   delete product.img;
   // Создаем новый объект пиццы с добавленным полем images и без поля img
